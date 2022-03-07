@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>  
+    <section id="section">
+        <div>
+            <input type="number" name="primeiroNumero" id="primeiroNumero">
+            <br><input type="radio" name="operaçao" id="soma" checked>
+            <label for="soma">+</label>
+            <input type="radio" name="operaçao" id="subtrair">
+            <label for="soma">-</label>
+            <input type="radio" name="operaçao" id="dividir">
+            <label for="soma">÷</label>
+            <input type="radio" name="operaçao" id="multiplicar">
+            <label for="soma">x</label>
+            <input type="button" value="CALCULAR" id="botao1" onclick="fazer_calculo()">
+            <br><input type="number" name="segundoNumero" id="segundoNumero">
+            <p>
+                <select name="tabela" id="tabela" size="10">    
+            </p>
+            </select>
+
+        </div>
+        <div id="div2">
+            
+        </div>
+    </section>
+    <footer>
+        <p>&copy;SaymonKauffmann</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
