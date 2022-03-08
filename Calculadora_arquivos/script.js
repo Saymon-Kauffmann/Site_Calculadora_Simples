@@ -6,6 +6,7 @@ function fazer_calculo() {
     let S_NUM = Number(segundo_numero.value)
 
     let operacoes = document.getElementsByName('operaçao')
+    // Somando
     if (operacoes[0].checked) {
         let res_op = P_NUM + S_NUM
         let item = document.createElement('option')
@@ -13,6 +14,7 @@ function fazer_calculo() {
         mostraRESULTADO.appendChild(item)
     }
 
+    // Subtraindo
     if (operacoes[1].checked) {
         let res_op = P_NUM - S_NUM
         let item = document.createElement('option')
@@ -20,6 +22,7 @@ function fazer_calculo() {
         mostraRESULTADO.appendChild(item)
     }
 
+    // Dividindo
     if (operacoes[2].checked) {
         let res_op = P_NUM / S_NUM
         let item = document.createElement('option')
@@ -27,6 +30,7 @@ function fazer_calculo() {
         mostraRESULTADO.appendChild(item)
     } 
 
+    // Multiplicando
     if (operacoes[3].checked) {
         let res_op = P_NUM * S_NUM
         let item = document.createElement('option')
