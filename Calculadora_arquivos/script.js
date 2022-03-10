@@ -40,3 +40,8 @@ function fazer_calculo() {
     
 }
 
+function limpar_lista() {
+    let apagar = document.getElementById('tabela')
+    apagar.innerHTML = ''
+}
+
