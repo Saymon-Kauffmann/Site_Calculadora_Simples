@@ -7,8 +7,8 @@ header {
     color: black;
     text-align: center;
     background: white;
-    width: 530px;
-    border-radius: 15px;
+    width: 330px;
+    border-radius: 10px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.582);
 }
