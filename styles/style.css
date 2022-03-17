@@ -7,7 +7,7 @@ header {
     color: black;
     text-align: center;
     background: white;
-    width: 530px;
+    width: 330px;
     border-radius: 15px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.582);
@@ -15,9 +15,9 @@ header {
 
 section {
     background: white;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 15px;
-    width: 500px;
+    width: 300px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.582);
 }
