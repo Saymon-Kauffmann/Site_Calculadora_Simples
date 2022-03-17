@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="estilo/the-calculator.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="the-calculator.ico" type="image/x-icon">
     <title>Calculadora simples</title>
-    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -23,13 +23,13 @@
             <label for="soma">÷</label>
             <input type="radio" name="operaçao" id="multiplicar">
             <label for="soma">x</label>
+            <input type="button" value="CALCULAR" id="botao1" onclick="fazer_calculo()">
             <br><input type="number" name="segundoNumero" id="segundoNumero">
             <p>
                 <select name="tabela" id="tabela" size="10">    
             </p>
             </select>
-            <br><input type="button" value="CALCULAR" id="botao1" onclick="fazer_calculo()">
-            <input type="button" value="LIMPAR" onclick="limpar_lista()">
+            <br><input type="button" value="LIMPAR" onclick="limpar_lista()">
         </div>
         <div id="div2">
             
@@ -39,6 +39,6 @@
         <!--Pode mudar para o seu nome ou tag em caso de fork ou clonagem--> 
         <p>&copy;SaymonKauffmann</p> 
     </footer>
-    <script src="código/script.js"></script>  
+    <script src="script.js"></script>  
 </body>
 </html>
