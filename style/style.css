@@ -23,7 +23,7 @@ input {
     font-family: 'Open Sans', sans-serif;
     background-color: #343434;
     color: #E6E6E6;
-    padding: 1.5em;
+    padding: 2em;
     border-radius: 50%;
     margin: 5px;
     font-size: 1em;
@@ -34,7 +34,7 @@ input {
 }
 
 #main_text1 {
-    width: 9.8em;
+    width: 12em;
     height: 1.5em;
     margin-bottom: 10px;
     border-radius: 50px;
