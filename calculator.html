@@ -8,10 +8,11 @@
     <link rel="shortcut icon" href="style/the-calculator.ico" type="image/x-icon">
 </head>
 <body>
-    <div>
+    <div class="main">
         <form action="" name="Calculator">
-            <input type="text" class="main_text" name="text1" disabled>
-            <input type="text" class="main_text" name="text2" value="C" onclick="location.reload()"><br>
+            <h1>Calculator</h1>
+            <input type="text" id="main_text1" name="text1" disabled>
+            <input type="button" id="main_text2" name="text2" value="C" onclick="location.reload()"><br>
 
             <input type="button" class="num_btts" name="button7" value="7" onclick="displaynum(button7.value)">
             <input type="button" class="num_btts" name="button8" value="8" onclick="displaynum(button8.value)">
