@@ -9,9 +9,9 @@
 </head>
 <body>
     <div>
-        <form action="" name="Calculadora">
-            <input type="text" class="main_text" name="1st_text" disabled>
-            <input type="text" class="main_text" name="2nd_text" value="C" onclick="location.reload()"><br>
+        <form action="" name="Calculator">
+            <input type="text" class="main_text" name="text1" disabled>
+            <input type="text" class="main_text" name="text2" value="C" onclick="location.reload()"><br>
 
             <input type="button" class="num_btts" name="button7" value="7" onclick="displaynum(button7.value)">
             <input type="button" class="num_btts" name="button8" value="8" onclick="displaynum(button8.value)">
@@ -30,11 +30,11 @@
 
             <input type="button" class="num_btts" name="button0" value="0" onclick="displaynum(button0.value)">
             <input type="button" class="num_btts" name="button_point" value="." onclick="displaynum(button_point.value)">
-            <input type="button" class="num_btts" name="button_equal" value="=" onclick="displaynum(button_equal.value)">
-            <input type="button" class="calc_btts" name="divide" value="÷" onclick="displaynum(divide.value)"><br>
+            <input type="button" class="num_btts" name="button_equal" value="=" onclick="text1.value=eval(text1.value)">
+            <input type="button" class="calc_btts" name="button_div" value="÷" onclick="displaynum(button_div.value)"><br>
         </form>
     </div>
 </body>
-<script src="script.js">
+<script src="script/script.js">
 </script>
 </html>
