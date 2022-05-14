@@ -11,8 +11,12 @@
     <div class="main">
         <form action="" name="Calculator">
             <h1>Calculator</h1>
-            <input type="text" id="main_text1" name="text1">
-            <input type="button" id="main_text2" name="text2" value="C" onclick="location.reload()"><br>
+            <input type="text" id="main_text1" name="text1"><br>
+            
+            <input type="button" id="main_text2" name="text2" value="C" onclick="location.reload()">
+            <input type="button" class="num_btts" name="percentage" value="%" onclick="displaynum(percentage.value)">
+            <input type="button" value="⌫">
+            <input type="button"  value="√"><br>
 
             <input type="button" class="num_btts" name="button7" value="7" onclick="displaynum(button7.value)">
             <input type="button" class="num_btts" name="button8" value="8" onclick="displaynum(button8.value)">
@@ -30,9 +34,9 @@
             <input type="button" class="calc_btts" name="mult" value="*" onclick="displaynum(mult.value)"><br>
 
             <input type="button" class="num_btts" name="button0" value="0" onclick="displaynum(button0.value)">
-            <input type="button" class="num_btts" name="button_point" value=". " onclick="displaynum(button_point.value)">
+            <input type="button" class="num_btts" name="button_point" value="." onclick="displaynum(button_point.value)">
             <input type="button" class="num_btts" name="button_equal" value="=" onclick="text1.value=eval(text1.value)">
-            <input type="button" class="calc_btts" name="divide" value="/ " onclick="displaynum(divide.value)"><br>
+            <input type="button" class="calc_btts" name="divide" value="/" onclick="displaynum(divide.value)"><br>
         </form>
     </div>
 </body>
