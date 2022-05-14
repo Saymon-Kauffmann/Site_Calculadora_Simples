@@ -42,6 +42,10 @@ input {
     background-color: var(--clc_bttn);
 }
 
+.num_btts1 {
+    background-color: var(--clc_bttn);
+}
+
 #main_text1 {
     min-width: 21em;
     min-height: 4.3em;

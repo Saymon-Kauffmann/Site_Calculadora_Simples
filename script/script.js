@@ -5,3 +5,7 @@ function displaynum(num1) {
 function sqroot() {
    Calculator.text1.value = Math.sqrt(Calculator.text1.value);
 }
+
+
+   
+
