@@ -34,7 +34,8 @@ input {
     min-height: 5em;
     min-width: 5em;
     margin: 2px;
-    font-size: 1em;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .calc_btts {
